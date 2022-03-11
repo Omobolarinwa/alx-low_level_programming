@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main -Entry point 
+ * main -Entry point
  *
  * Description: Assigns random number to var n each time executed,
  * prints an output based on the last digit of the value of n
