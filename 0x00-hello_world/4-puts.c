@@ -5,7 +5,7 @@
  * Description: prints "Programming is like building a multilingual puzzle"
  * with a newline.
  *
- * Returns value: 0
+ * Return value: 0
  **/
 int main(void)
 {
