@@ -1,4 +1,3 @@
-  
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -6,8 +5,9 @@
 /**
  * main - checks if a file is positive or negative
  *
- * Description: program assigns a random number to a var n each time it is execute
- * 
+ * Description: program assigns a random number to a var n each time it
+ * is execute
+ *
  * Return: returns 0
  **/
 int main(void)
@@ -17,16 +17,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n == 0)
-	  {
-	    printf("%d is zero\n", n);
-	  }
+	{
+	printf("%d is zero\n", n);
+	}
 	else if (n > 0)
-	  {
-	    printf("%d is positive\n", n);
-	  }
+	{
+	printf("%d is positive\n", n);
+	}
 	else
-	  {
-	    printf("%d is negative\n", n);
-	  }
+	{
+	printf("%d is negative\n", n);
+	}
 	return (0);
 }
