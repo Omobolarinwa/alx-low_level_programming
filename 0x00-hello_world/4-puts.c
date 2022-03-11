@@ -2,10 +2,10 @@
 /**
  * main - entry point
  *
- * Description - prints "Programming is like building a multilingual puzzle"
+ * Description: prints "Programming is like building a multilingual puzzle"
  * with a newline.
  *
- * main: Returns 0
+ * Returns value: 0
  **/
 int main(void)
 {
