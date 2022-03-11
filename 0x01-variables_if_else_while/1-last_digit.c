@@ -2,14 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - checks the last value of a random number n
+/**
+ * main -Entry point 
  *
  * Description: Assigns random number to var n each time executed,
  * prints an output based on the last digit of the value of n
  *
  * Return: returns 0
- */
+ **/
 int main(void)
 {
 	int n;
