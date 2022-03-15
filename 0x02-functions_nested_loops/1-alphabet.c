@@ -6,8 +6,6 @@
  *
  * print_alphabet - program function
  *
- * Description: A program that prints aphabets in small letter
- *
  * Return: Always 0.
  */
 
