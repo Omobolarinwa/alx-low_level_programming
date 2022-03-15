@@ -8,6 +8,16 @@
  * Return: returns 0
  **/
 
-int main(void){
-  printf("_putchar\n");
+int main(void)
+{
+	char text[10] = "_putchar";
+	int i = 0;
+
+	for (i = 0; i < 9; i++)
+	{
+	putchar(text[i]);
+	}
+	putchar('\n');
+
+	return (0);
 }
