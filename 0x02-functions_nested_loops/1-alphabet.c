@@ -9,15 +9,13 @@
  * Return: Always 0.
  */
 
-int print_alphabet();
-
 int main(void)
 {
 print_alphabet();
 return (0);
 }
 
-int print_alphabet() {
+void print_alphabet(void) {
 char alpha;
 
 for (alpha = 'a'; alpha <='z'; alpha++)
