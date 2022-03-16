@@ -2,12 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * print_alphabet_x10 - prints alphabets 10x
  *
- * print_alphabet_x10 - program function
- *
- * Description: Prints the alphabets 10X
- * Return: Always 0.
+ * Return: void
  */
 
 void print_alphabet_x10(void) {

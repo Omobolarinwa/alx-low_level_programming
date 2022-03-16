@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * print_alphabet - prints alphabets in lower case
  *
- * print_alphabet - program function
- *
- * Return: Always 0.
+ * Return: void
  */
 
 void print_alphabet(void)
