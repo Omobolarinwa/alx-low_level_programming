@@ -14,7 +14,7 @@ int times;
 
 for (times = 0; times <= 9; times++)
 {
-for (alpha = 'a'; alpha <='z'; alpha++)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
 putchar(alpha);
 }
