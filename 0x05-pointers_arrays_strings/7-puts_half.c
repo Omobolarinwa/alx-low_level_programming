@@ -2,25 +2,35 @@
 
 /**
  * puts_half - prints half of a string
- * @str: string
- * Return: void
+ * followed by a new line
+ *
+ * @str: string to be printed
+ *
+ * Return: returns void
  */
-
 void puts_half(char *str)
 {
-int i, j, max;
+	int len, n, i;
 
-i = 0;
-while (str[i] != '\0')
-{
-i++;
-}
-max = i;
-j = max / 2;
-while (j <= max)
-{
-_putchar(str[j]);
-j++;
-}
-_putchar('\n');
+	len = 0;
+
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+
+	if (len % 2 == 0)
+	{
+		for (i = len / 2; str[i] != '\0'; i++)
+		{
+			_putchar(str[i]);
+		}
+	} else if (len % 2)
+	{
+		for (n = (len - 1) / 2; n < len - 1; n++)
+		{
+			_putchar(str[n + 1]);
+		}
+	}
+	_putchar('\n');
 }
